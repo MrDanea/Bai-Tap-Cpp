@@ -1,0 +1,13 @@
+#include <iostream>
+#include<math.h>
+using namespace std ;
+
+int main()
+{
+    int s, x, n;
+    cout << "Moi nhap x \n" << "Moi nhap n \n";
+    cin >> x >> n;
+    s = pow(x, n);
+    cout << "x^n =" << s;
+    return 0;
+}
